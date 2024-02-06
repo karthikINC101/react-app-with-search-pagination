@@ -1,0 +1,79 @@
+.mainContainer {
+  background-image: url("../Assests/bg-img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  padding: 10px;
+  .item-component {
+    max-width: 300px;
+    min-width: 300px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 10px;
+    border: 1px solid;
+    background-color: #ffffffde;
+    padding: 10px;
+    border-radius: 3px;
+    border: 2px solid #0000002b;
+    text-align: center;
+    .item-img {
+      height: 100%;
+      min-height: 400px;
+      max-height: 400px;
+    }
+    .item-name {
+      min-height: 40px;
+      max-height: 40px;
+      line-height: 23px;
+      margin-top: 10px;
+    }
+    .item-btn {
+      margin-top: 10px;
+    }
+  }
+}
+
+/***navbar css***/
+
+.nav-link {
+  margin: 10px;
+  height: auto;
+  width: 145px;
+  border-radius: 50px;
+  background: #000 !important;
+
+  font-family: "Lobster", cursive;
+  font-weight: bold;
+  text-align: center;
+}
+.Basket {
+  position: relative;
+}
+.itemcount {
+  position: absolute;
+  width: 21px;
+  background: #fff;
+  border-radius: 50px;
+  height: 19px;
+  font-size: 11px;
+  right: -6px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: center;
+  top: -7px;
+}
+
+.pagination {
+  margin-bottom: 0 !important;
+  padding-bottom: 20px !important;
+}
